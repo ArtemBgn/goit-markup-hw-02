@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -22,11 +22,11 @@ body a {
   font-size: 18px;
   text-transform: uppercase;
   color: #4d5ae5;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
 
-.logo span {
+.logo-half {
   color: #2e2f42;
 }
 
@@ -47,9 +47,12 @@ body a {
   text-decoration: underline;
 }
 
+.contacts {
+  font-style: normal;
+}
+
 .contacts-list-item-link {
   font-size: 16px;
-  font-style: normal;
   letter-spacing: 0.02em;
 }
 
@@ -62,21 +65,25 @@ body a {
   background-color: #2e2f42;
 }
 
-.heading h1 {
+.title-heading {
   color: white;
   font-weight: 700;
   font-size: 56px;
   text-align: center;
-  line-height: 1.07143;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 .heading-order {
-  border-radius: 4px;
+  /*border-radius: 4px;
   width: 169px;
-  height: 56px;
+  height: 56px;/**/
   background: #4d5ae5;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: white;
   cursor: pointer;
 }
@@ -86,19 +93,22 @@ body a {
   background: #404bbf;
 }
 
-h2 {
+.title-cluster {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   text-align: center;
   color: #2e2f42;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
-h3 {
+.title-cluster-down {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 
 .team {
@@ -110,14 +120,18 @@ h3 {
   text-align: center;
 }
 
-footer {
+.text {
+  letter-spacing: 0.02em;
+}
+
+.vault {
   background-color: #2e2f42;
 }
 
-footer .logo span {
+.vault .logo .logo-half {
   color: #f4f4fd;
 }
 
-footer p {
+.vault .text {
   color: #f4f4fd;
 }
