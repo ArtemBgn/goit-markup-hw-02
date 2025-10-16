@@ -2,6 +2,7 @@ body {
   font-family: 'Roboto', 'Raleway', sans-serif;
   font-weight: 400;
   font-size: 16px;
+  line-height: 1.5;
   color: #434455;
   background-color: rgba(255, 255, 255, 1);
 }
@@ -33,7 +34,6 @@ body a {
   font-weight: 500;
   font-size: 16px;
   color: #2e2f42;
-  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -50,7 +50,6 @@ body a {
 .contacts-list-item-link {
   font-size: 16px;
   font-style: normal;
-  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -68,6 +67,7 @@ body a {
   font-weight: 700;
   font-size: 56px;
   text-align: center;
+  line-height: 1.07143;
 }
 
 .heading-order {
@@ -78,6 +78,7 @@ body a {
   font-weight: 500;
   font-size: 16px;
   color: white;
+  cursor: pointer;
 }
 
 .heading-order:focus,/**/
@@ -88,6 +89,7 @@ body a {
 h2 {
   font-weight: 700;
   font-size: 36px;
+  line-height: 1.11111;
   text-align: center;
   color: #2e2f42;
 }
@@ -95,6 +97,7 @@ h2 {
 h3 {
   font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
   color: #2e2f42;
 }
 
